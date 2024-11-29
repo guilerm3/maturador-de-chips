@@ -41,7 +41,7 @@
             ></path>
           </svg>
           <span class="home-text">
-            <span class="home-text01">numeros conectados</span>
+            <span class="home-text01">Números conectados</span>
             <br />
           </span>
           <div class="home-container02">
@@ -50,16 +50,20 @@
         </div>
         <div class="home-container06">
           <span class="home-text05">
-            <span class="home-text06">configurações</span>
+            <span class="home-text06">Configurações</span>
             <br />
             <br />
           </span>
-          <input type="checkbox" class="home-checkbox" id="ContinueOnBlock"/>
-          <label class="home-text09">Continuar em caso de banimento</label>
-          <input type="checkbox" class="home-checkbox1" id="ShutdownAfterCompletion"/>
-          <label class="home-text10">
-            Desligar máquina após termino&nbsp;&nbsp;
-          </label>
+          <div class="div-check">
+          <div class="checkbox-wrapper-2">
+            <input type="checkbox" class="sc-gJwTLC ikxBAC home-checkbox" id="ContinueOnBlock"/>
+          </div>
+          <div class="checkbox-wrapper-2 wrapper-2">
+            <input type="checkbox" class="sc-gJwTLC ikxBAC home-checkbox1" id="ShutdownAfterCompletion"/>
+          </div>  
+        </div>
+        <label class="home-text09">Continuar em caso de banimento</label>
+        <label class="home-text10"> Desligar máquina após termino&nbsp;&nbsp;</label>
           <label class="home-text11">Intervalo entre mensagens:</label>
           <label class="home-text12">
             <span>Trocar de conta a cada:</span>
@@ -81,6 +85,7 @@
             <span>Parar após:&nbsp;</span>
             <br />
           </label>
+          <div class="div-intervalo">
           <input
             type="number"
             id="MinimumMessageInterval"
@@ -89,6 +94,7 @@
             placeholder="min"
             class="input home-textinput"
           />
+          <label class="home-text27">-</label>
           <input
             type="number"
             id="MaximumMessageInterval"
@@ -97,10 +103,10 @@
             placeholder="max"
             class="input home-textinput1"
           />
-          <label class="home-text27">-</label>
+          <label class="home-text30">segundos</label>
+        </div>
           <label class="home-text28">mensagens</label>
           <label class="home-text29">mensagens</label>
-          <label class="home-text30">segundos</label>
           <input type="number" class="input home-textinput2" min="1" id="ChangeAccountEveryMessages" />
           <input type="number" required="" class="input home-textinput3"  min="1" id="stopAfterMessages"/>
           <svg viewBox="0 0 1024 1024" class="home-icon4">
