@@ -559,16 +559,16 @@
     background-color: var(--dl-color-gray-500);
   }
   .home-textinput2 {
-    top: 270px;
+    top: 272px;
     left: 26px;
     width: 148px;
-    height: 26px;
+    height: 25px;
     position: absolute;
   }
   .home-textinput3 {
     top: 343px;
     left: 25px;
-    width: 147px;
+    width: 148px;
     height: 25px;
     position: absolute;
   }
